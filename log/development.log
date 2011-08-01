@@ -1,1 +1,930 @@
 DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /Users/matthewliu/Rails/blojobb/config/environment.rb:5)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sun Jul 31 15:03:12 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders/new" for 127.0.0.1 at Sun Jul 31 15:03:30 -0700 2011
+
+ActionController::RoutingError (No route matches "/orders/new"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /Users/matthewliu/Rails/blojobb/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /Users/matthewliu/Rails/blojobb/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /Users/matthewliu/Rails/blojobb/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /Users/matthewliu/Rails/blojobb/config/environment.rb:5)
+
+
+Started GET "/posts" for 127.0.0.1 at Sun Jul 31 16:59:10 -0700 2011
+  Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+SQLite3::SQLException: no such table: posts: SELECT "posts".* FROM "posts"
+Completed 500 Internal Server Error in 7ms
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: posts: SELECT "posts".* FROM "posts"):
+  app/controllers/posts_controller.rb:5:in `index'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (94.9ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /Users/matthewliu/Rails/blojobb/config/environment.rb:5)
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (1.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36mSQL (1.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+Migrating to CreatePosts (20110731235519)
+  [1m[36mSQL (0.4ms)[0m  [1mCREATE TABLE "posts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "content" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110731235519')
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("posts")
+
+
+Started GET "/posts" for 127.0.0.1 at Sun Jul 31 16:59:26 -0700 2011
+  Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+Rendered posts/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 89ms (Views: 83.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at Sun Jul 31 17:02:00 -0700 2011
+  Processing by PostsController#new as HTML
+Rendered posts/_form.html.erb (19.0ms)
+Rendered posts/new.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 43ms (Views: 35.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at Sun Jul 31 17:02:46 -0700 2011
+  Processing by PostsController#new as HTML
+Rendered posts/_form.html.erb (7.1ms)
+Rendered posts/new.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 100ms (Views: 93.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at Sun Jul 31 17:04:50 -0700 2011
+  Processing by PostsController#new as HTML
+Rendered posts/_form.html.erb (6.5ms)
+Rendered posts/new.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 32ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at Sun Jul 31 17:05:30 -0700 2011
+  Processing by PostsController#new as HTML
+Rendered posts/_form.html.erb (11.6ms)
+Rendered posts/new.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 29ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at Sun Jul 31 17:05:35 -0700 2011
+  Processing by PostsController#new as HTML
+Rendered posts/_form.html.erb (10.6ms)
+Rendered posts/new.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 27ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at Sun Jul 31 17:06:14 -0700 2011
+  Processing by PostsController#new as HTML
+Rendered posts/_form.html.erb (81.3ms)
+Rendered posts/new.html.erb within layouts/application (87.9ms)
+Completed 200 OK in 101ms (Views: 94.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at Sun Jul 31 17:06:19 -0700 2011
+  Processing by PostsController#new as HTML
+Rendered posts/_form.html.erb (8.2ms)
+Rendered posts/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 27ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at Sun Jul 31 17:06:54 -0700 2011
+  Processing by PostsController#new as HTML
+Rendered posts/_form.html.erb (7.4ms)
+Rendered posts/new.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 24ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at Sun Jul 31 17:07:12 -0700 2011
+  Processing by PostsController#new as HTML
+Rendered posts/_form.html.erb (7.5ms)
+Rendered posts/new.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 24ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sun Jul 31 17:07:35 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sun Jul 31 17:08:04 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sun Jul 31 17:22:45 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at Sun Jul 31 17:22:53 -0700 2011
+  Processing by PostsController#index as HTML
+  [1m[36mPost Load (2.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered posts/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 26ms (Views: 14.2ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at Sun Jul 31 17:22:57 -0700 2011
+  Processing by PostsController#new as HTML
+Rendered posts/_form.html.erb (82.9ms)
+Rendered posts/new.html.erb within layouts/application (88.7ms)
+Completed 200 OK in 105ms (Views: 98.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at Sun Jul 31 17:23:05 -0700 2011
+  Processing by PostsController#new as HTML
+Rendered posts/_form.html.erb (6.6ms)
+Rendered posts/new.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 23ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at Sun Jul 31 17:23:17 -0700 2011
+  Processing by PostsController#new as HTML
+Rendered posts/_form.html.erb (5.4ms)
+Rendered posts/new.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 25ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at Sun Jul 31 17:23:47 -0700 2011
+  Processing by PostsController#new as HTML
+Rendered posts/_form.html.erb (7.2ms)
+Rendered posts/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 26ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at Sun Jul 31 17:24:01 -0700 2011
+  Processing by PostsController#new as HTML
+Rendered posts/_form.html.erb (7.3ms)
+Rendered posts/new.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 29ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at Sun Jul 31 17:24:36 -0700 2011
+  Processing by PostsController#new as HTML
+Rendered posts/_form.html.erb (5.5ms)
+Rendered posts/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 26ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /Users/matthewliu/Rails/blojobb/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /Users/matthewliu/Rails/blojobb/config/environment.rb:5)
+  [1m[36mSQL (1.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.5ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.6ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (1.1ms)[0m  CREATE TABLE "posts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "content" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (1.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (1.1ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20110731235519')[0m
+
+
+Started GET "/posts/new" for 127.0.0.1 at Sun Jul 31 23:16:27 -0700 2011
+  Processing by PostsController#new as HTML
+Rendered posts/_form.html.erb (14.9ms)
+Rendered posts/new.html.erb within layouts/application (19.9ms)
+Completed 200 OK in 35ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sun Jul 31 23:27:07 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at Sun Jul 31 23:27:14 -0700 2011
+  Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered posts/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 18ms (Views: 10.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at Sun Jul 31 23:27:16 -0700 2011
+  Processing by PostsController#new as HTML
+Rendered posts/_form.html.erb (5.6ms)
+Rendered posts/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 25ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sun Jul 31 23:30:34 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (7.6ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (Missing partial pages/form with {:locale=>[:en, :en], :formats=>[:html], :handlers=>[:rjs, :rhtml, :builder, :rxml, :erb]} in view paths "/Users/matthewliu/Rails/blojobb/app/views"):
+    1: <h1>What makes your job blow?</h1>
+    2: 
+    3: <%= render 'form' %>
+  app/views/pages/home.html.erb:3:in `_app_views_pages_home_html_erb___223221920_2187353620_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.2ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sun Jul 31 23:30:52 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (0.9ms)
+Rendered pages/home.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: <%= form_for(@post) do |f| %>
+    2:   <% if @post.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@post.errors.count, "error") %> prohibited this post from being saved:</h2>
+  app/views/posts/_form.html.erb:1:in `_app_views_posts__form_html_erb___874427464_2186100660_1079870'
+  app/views/pages/home.html.erb:3:in `_app_views_pages_home_html_erb___223221920_2186114020_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.5ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.8ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sun Jul 31 23:32:26 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered pages/_form.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: <%= form_for(@post) do |f| %>
+    2:   <% if @post.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@post.errors.count, "error") %> prohibited this post from being saved:</h2>
+  app/views/pages/_form.html.erb:1:in `_app_views_pages__form_html_erb___1846562074_2184886380_1079870'
+  app/views/pages/home.html.erb:3:in `_app_views_pages_home_html_erb___223221920_2184895160_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.3ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sun Jul 31 23:33:03 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered pages/_form.html.erb (5.5ms)
+Rendered pages/home.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 20ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sun Jul 31 23:33:16 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (7.2ms)
+Rendered pages/home.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 22ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sun Jul 31 23:33:29 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (5.4ms)
+Rendered pages/home.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 20ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sun Jul 31 23:37:51 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (5.7ms)
+Rendered pages/home.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 20ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sun Jul 31 23:39:54 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (4.4ms)
+Rendered pages/home.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 18ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sun Jul 31 23:45:10 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (7.2ms)
+Rendered layouts/_header.html.erb (9.6ms)
+Rendered pages/home.html.erb within layouts/application (22.7ms)
+Completed 500 Internal Server Error in 35ms
+
+ActionView::Template::Error (undefined local variable or method `logo' for #<#<Class:0x1049c4140>:0x1049c24d0>):
+    1: <header>
+    2:   
+    3:   <%= link_to logo, root_path %>
+    4:   <nav class="round">
+    5:     <ul>
+    6:       <li><%= link_to "Home", root_path %></li>
+  app/views/layouts/_header.html.erb:3:in `_app_views_layouts__header_html_erb__1821317028_2185903980_531230'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__921140020_2186148380_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.3ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sun Jul 31 23:47:07 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (4.6ms)
+Rendered layouts/_header.html.erb (10.0ms)
+Rendered pages/home.html.erb within layouts/application (19.9ms)
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error (undefined local variable or method `root_path' for #<#<Class:0x104b83800>:0x104b81c08>):
+    1: <header>
+    2:   
+    3:   <%= link_to logo, root_path %>
+    4:   <nav class="round">
+    5:     <ul>
+    6:       <li><%= link_to "Home", root_path %></li>
+  app/views/layouts/_header.html.erb:3:in `_app_views_layouts__header_html_erb__1821317028_2186853000_531230'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__921140020_2187063740_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.5ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.2ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sun Jul 31 23:48:55 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (4.7ms)
+Rendered layouts/_header.html.erb (11.2ms)
+Rendered pages/home.html.erb within layouts/application (22.1ms)
+Completed 500 Internal Server Error in 37ms
+
+ActionView::Template::Error (undefined local variable or method `users_path' for #<#<Class:0x10475ac60>:0x104758578>):
+    4:   <nav class="round">
+    5:     <ul>
+    6:       <li><%= link_to "Home", root_path %></li>
+    7:       <li><%= link_to "Contact", users_path %></li>
+    8:     </ul>
+    9:   </nav>
+    10: </header>
+  app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__1821317028_2184732240_531230'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__921140020_2184882800_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (74.0ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.5ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (86.2ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sun Jul 31 23:49:27 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (4.5ms)
+Rendered layouts/_header.html.erb (1.8ms)
+Rendered pages/home.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 26ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sun Jul 31 23:50:09 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (5.2ms)
+Rendered layouts/_header.html.erb (1.1ms)
+Rendered pages/home.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 26ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sun Jul 31 23:50:15 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (4.8ms)
+Rendered layouts/_header.html.erb (1.4ms)
+Rendered pages/home.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 25ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sun Jul 31 23:50:23 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (4.6ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered pages/home.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 26ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sun Jul 31 23:50:49 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (4.9ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered pages/home.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 26ms (Views: 19.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at Sun Jul 31 23:51:36 -0700 2011
+  Processing by PostsController#create as HTML
+  Parameters: {"commit"=>"Argh!!!", "post"=>{"content"=>"I hate my job"}, "authenticity_token"=>"P6Jyf8IFx1LPvGkvJvHDV1eCu7ZoTOac53KYX+To0EA=", "utf8"=>"\342\234\223"}
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mAREL (3.3ms)[0m  [1mINSERT INTO "posts" ("content", "updated_at", "created_at") VALUES ('I hate my job', '2011-08-01 06:51:36.551876', '2011-08-01 06:51:36.551876')[0m
+Redirected to http://localhost:3000/posts/1
+Completed 302 Found in 93ms
+
+
+Started GET "/posts/1" for 127.0.0.1 at Sun Jul 31 23:51:36 -0700 2011
+  Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = 1 LIMIT 1
+Rendered layouts/_header.html.erb (1.1ms)
+Rendered posts/show.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 23ms (Views: 16.9ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/posts" for 127.0.0.1 at Sun Jul 31 23:52:12 -0700 2011
+  Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered posts/index.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 24ms (Views: 18.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jul 31 23:52:41 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (5.3ms)
+Rendered layouts/_header.html.erb (1.3ms)
+Rendered pages/home.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 23ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jul 31 23:53:46 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (6.6ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered pages/home.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 25ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jul 31 23:53:56 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (4.7ms)
+Rendered layouts/_header.html.erb (1.1ms)
+Rendered pages/home.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 23ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jul 31 23:54:41 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (4.5ms)
+Rendered layouts/_header.html.erb (1.8ms)
+Rendered pages/home.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 25ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jul 31 23:54:42 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (6.1ms)
+Rendered layouts/_header.html.erb (1.3ms)
+Rendered pages/home.html.erb within layouts/application (77.1ms)
+Completed 200 OK in 88ms (Views: 83.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jul 31 23:54:58 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (5.9ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered pages/home.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 25ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jul 31 23:56:31 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (5.6ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered pages/home.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 25ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jul 31 23:56:48 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (5.3ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered pages/home.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 28ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jul 31 23:56:56 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (4.6ms)
+Rendered layouts/_header.html.erb (1.5ms)
+Rendered pages/home.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 24ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jul 31 23:57:07 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered pages/home.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 27ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jul 31 23:57:17 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (4.4ms)
+Rendered layouts/_header.html.erb (1.4ms)
+Rendered pages/home.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 27ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jul 31 23:57:32 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (6.2ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered pages/home.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 25ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jul 31 23:57:42 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (5.1ms)
+Rendered layouts/_header.html.erb (1.5ms)
+Rendered pages/home.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 23ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jul 31 23:57:47 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (5.3ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered pages/home.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 23ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jul 31 23:58:17 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (4.6ms)
+Rendered layouts/_header.html.erb (1.1ms)
+Rendered pages/home.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 23ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jul 31 23:58:19 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (4.5ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered pages/home.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 24ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 01 00:03:46 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (4.3ms)
+Rendered layouts/_header.html.erb (1.4ms)
+Rendered pages/home.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 26ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 01 00:04:14 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (6.6ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered pages/home.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 28ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 01 00:04:15 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (4.5ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered pages/home.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 27ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 01 00:04:21 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (4.4ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered pages/home.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 26ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 01 00:04:30 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (1.4ms)
+Rendered pages/home.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 24ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 01 00:06:57 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (5.1ms)
+Rendered layouts/_header.html.erb (1.3ms)
+Rendered pages/home.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 25ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 01 00:07:20 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (4.6ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered pages/home.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 24ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 01 00:07:34 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (6.1ms)
+Rendered layouts/_header.html.erb (1.1ms)
+Rendered pages/home.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 29ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 01 00:07:49 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered pages/home.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 23ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 01 00:08:11 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (4.9ms)
+Rendered layouts/_header.html.erb (1.4ms)
+Rendered pages/home.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 25ms (Views: 19.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 01 00:08:38 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (4.6ms)
+Rendered layouts/_header.html.erb (1.3ms)
+Rendered pages/home.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 23ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 01 00:08:59 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (4.6ms)
+Rendered layouts/_header.html.erb (1.7ms)
+Rendered pages/home.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 27ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 01 00:11:15 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (4.4ms)
+Rendered layouts/_header.html.erb (1.5ms)
+Rendered pages/home.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 23ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 01 00:13:09 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (4.5ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered pages/home.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 23ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 01 00:13:51 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (4.5ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered pages/home.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 23ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 01 00:14:06 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (5.9ms)
+Rendered layouts/_header.html.erb (1.1ms)
+Rendered pages/home.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 25ms (Views: 19.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 01 00:14:54 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (4.9ms)
+Rendered layouts/_header.html.erb (2.7ms)
+Rendered pages/home.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 27ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Mon Aug 01 00:14:56 -0700 2011
+  Processing by PagesController#contact as HTML
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered pages/contact.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 01 00:14:58 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (4.5ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered pages/home.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 28ms (Views: 19.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 01 00:15:00 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (5.7ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered pages/home.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 25ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at Mon Aug 01 00:15:16 -0700 2011
+  Processing by PostsController#create as HTML
+  Parameters: {"commit"=>"Argh!!!", "post"=>{"content"=>"Yet another post"}, "authenticity_token"=>"P6Jyf8IFx1LPvGkvJvHDV1eCu7ZoTOac53KYX+To0EA=", "utf8"=>"\342\234\223"}
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "posts" ("created_at", "updated_at", "content") VALUES ('2011-08-01 07:15:16.700487', '2011-08-01 07:15:16.700487', 'Yet another post')
+Redirected to http://localhost:3000/posts/2
+Completed 302 Found in 14ms
+
+
+Started GET "/posts/2" for 127.0.0.1 at Mon Aug 01 00:15:16 -0700 2011
+  Processing by PostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" = 2 LIMIT 1[0m
+Rendered layouts/_header.html.erb (1.4ms)
+Rendered posts/show.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 26ms (Views: 18.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/posts/" for 127.0.0.1 at Mon Aug 01 00:15:21 -0700 2011
+  Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+Rendered layouts/_header.html.erb (1.5ms)
+Rendered posts/index.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 27ms (Views: 20.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 01 00:15:27 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (4.4ms)
+Rendered layouts/_header.html.erb (2.8ms)
+Rendered pages/home.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 26ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at Mon Aug 01 00:17:38 -0700 2011
+
+SyntaxError (/Users/matthewliu/Rails/blojobb/app/controllers/posts_controller.rb:92: syntax error, unexpected kEND, expecting $end):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.8ms)
+
+
+Started POST "/posts" for 127.0.0.1 at Mon Aug 01 00:17:59 -0700 2011
+  Processing by PostsController#create as HTML
+  Parameters: {"commit"=>"Argh!!!", "post"=>{"content"=>"Third post."}, "authenticity_token"=>"P6Jyf8IFx1LPvGkvJvHDV1eCu7ZoTOac53KYX+To0EA=", "utf8"=>"\342\234\223"}
+Completed 500 Internal Server Error in 9ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.save):
+  app/controllers/posts_controller.rb:44:in `create'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.6ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.9ms)
+
+
+Started POST "/posts" for 127.0.0.1 at Mon Aug 01 00:18:15 -0700 2011
+  Processing by PostsController#create as HTML
+  Parameters: {"commit"=>"Argh!!!", "post"=>{"content"=>"Third post."}, "authenticity_token"=>"P6Jyf8IFx1LPvGkvJvHDV1eCu7ZoTOac53KYX+To0EA=", "utf8"=>"\342\234\223"}
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "posts" ("content", "updated_at", "created_at") VALUES ('Third post.', '2011-08-01 07:18:16.023913', '2011-08-01 07:18:16.023913')[0m
+Redirected to http://localhost:3000/
+Redirected to 
+Completed 500 Internal Server Error in 16ms
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/posts_controller.rb:55:in `create'
+  app/controllers/posts_controller.rb:53:in `create'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (10.0ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 01 00:19:24 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (5.3ms)
+Rendered layouts/_header.html.erb (1.3ms)
+Rendered pages/home.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 24ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at Mon Aug 01 00:19:30 -0700 2011
+  Processing by PostsController#create as HTML
+  Parameters: {"commit"=>"Argh!!!", "post"=>{"content"=>"Hello. This should flash."}, "authenticity_token"=>"P6Jyf8IFx1LPvGkvJvHDV1eCu7ZoTOac53KYX+To0EA=", "utf8"=>"\342\234\223"}
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "posts" ("updated_at", "created_at", "content") VALUES ('2011-08-01 07:19:30.351554', '2011-08-01 07:19:30.351554', 'Hello. This should flash.')
+Redirected to http://localhost:3000/
+Completed 302 Found in 13ms
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 01 00:19:30 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (4.9ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered pages/home.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 101ms (Views: 18.9ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/posts" for 127.0.0.1 at Mon Aug 01 00:20:02 -0700 2011
+  Processing by PostsController#create as HTML
+  Parameters: {"commit"=>"Argh!!!", "post"=>{"content"=>"Let's try flash again."}, "authenticity_token"=>"P6Jyf8IFx1LPvGkvJvHDV1eCu7ZoTOac53KYX+To0EA=", "utf8"=>"\342\234\223"}
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "updated_at") VALUES ('Let''s try flash again.', '2011-08-01 07:20:02.819215', '2011-08-01 07:20:02.819215')[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 13ms
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 01 00:20:02 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (9.7ms)
+Rendered layouts/_header.html.erb (1.1ms)
+Rendered pages/home.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 28ms (Views: 22.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts" for 127.0.0.1 at Mon Aug 01 00:20:08 -0700 2011
+  Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"
+Rendered layouts/_header.html.erb (1.5ms)
+Rendered posts/index.html.erb within layouts/application (18.2ms)
+Completed 200 OK in 30ms (Views: 24.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 01 00:22:03 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (4.6ms)
+Rendered layouts/_header.html.erb (2.8ms)
+Rendered pages/home.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 111ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at Mon Aug 01 00:22:10 -0700 2011
+  Processing by PostsController#create as HTML
+  Parameters: {"commit"=>"Argh!!!", "post"=>{"content"=>"Flash the 5th time."}, "authenticity_token"=>"P6Jyf8IFx1LPvGkvJvHDV1eCu7ZoTOac53KYX+To0EA=", "utf8"=>"\342\234\223"}
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "posts" ("created_at", "updated_at", "content") VALUES ('2011-08-01 07:22:10.758032', '2011-08-01 07:22:10.758032', 'Flash the 5th time.')[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 16ms
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 01 00:22:10 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (4.4ms)
+Rendered layouts/_header.html.erb (1.8ms)
+Rendered pages/home.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 26ms (Views: 20.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/posts" for 127.0.0.1 at Mon Aug 01 00:22:54 -0700 2011
+  Processing by PostsController#create as HTML
+  Parameters: {"commit"=>"Argh!!!", "post"=>{"content"=>"FUCK!"}, "authenticity_token"=>"P6Jyf8IFx1LPvGkvJvHDV1eCu7ZoTOac53KYX+To0EA=", "utf8"=>"\342\234\223"}
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "posts" ("content", "created_at", "updated_at") VALUES ('FUCK!', '2011-08-01 07:22:54.353348', '2011-08-01 07:22:54.353348')
+Redirected to http://localhost:3000/
+Completed 302 Found in 12ms
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 01 00:22:54 -0700 2011
+  Processing by PagesController#home as HTML
+Rendered posts/_form.html.erb (5.5ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered pages/home.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 27ms (Views: 21.0ms | ActiveRecord: 0.4ms)

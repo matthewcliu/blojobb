@@ -7,8 +7,15 @@
   <%= csrf_meta_tag %>
 </head>
 <body>
-
-<%= yield %>
-
+	<div class="container">
+	  <%= render 'layouts/header'%>
+	  <%= javascript_include_tag :defaults %>
+      <section class="round">
+		<% flash.each do |key, value| %>
+		  <%= content_tag(:div, value, :class => "flash #{key}") %>
+		  <% end %>
+        <%= yield %>
+      </section>
+    </div>
 </body>
 </html>
