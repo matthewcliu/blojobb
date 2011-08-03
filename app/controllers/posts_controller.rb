@@ -68,7 +68,7 @@ class PostsController < ApplicationController
 
     respond_to do |format|
       if @post.update_attributes(params[:post])
-        format.html { redirect_to(@post, :notice => 'Post was successfully updated.') }
+        format.html { redirect_to(post_path, :notice => 'Post was successfully updated.') }
         format.xml  { head :ok }
       else
         format.html { render :action => "edit" }
@@ -88,4 +88,7 @@ class PostsController < ApplicationController
       format.xml  { head :ok }
     end
   end
+
+
+  
 end

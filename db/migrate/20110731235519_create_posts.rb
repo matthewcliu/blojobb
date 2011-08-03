@@ -5,6 +5,7 @@ class CreatePosts < ActiveRecord::Migration
 
       t.timestamps
     end
+    add_index :posts, :created_at
   end
 
   def self.down

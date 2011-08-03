@@ -1,0 +1,9 @@
+<% @posts.each do |post| %>
+<tr>
+  <td><%= post.content %></td>
+  <td><%= link_to 'Like', like_path(post) %></td>
+  <td><%= post.likes %></td>   
+  <td><%= link_to 'Dislike', dislike_path(post) %></td>
+  <td><%= post.dislikes %></td>
+</tr>
+<% end %>

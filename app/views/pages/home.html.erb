@@ -1,2 +1,12 @@
-<h1 class="post">What makes your job blow?</h1>
-<%= render 'posts/form' %>
+<table class="main">
+  <h1 class="post">What makes your job blow?</h1>
+  <td summary="Bitching form">
+    <%= render 'posts/form' %>
+  </td>
+</table>
+
+<table class="feed">
+  <td class="posts" summary="Newsfeed of posts">
+    <%= render 'feed/feed' %>
+  </td>
+</table>
