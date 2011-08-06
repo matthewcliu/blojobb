@@ -10,3 +10,11 @@
     <%= render 'feed/feed' %>
   </td>
 </table>
+
+<table class="sort_links">
+  <td class="sort_links" summary="Sort functionality">
+    <%= render 'posts/sort_posts' %>
+  </td>
+</table>
+
+<%= debug(params) if Rails.env.development? %>
