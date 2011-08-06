@@ -1,0 +1,33 @@
+<tr>
+  <td class="post">
+    <span class="content"><%= post.content %></span>
+    <span class="timestamp">
+      Posted <%= time_ago_in_words(post.created_at) %> ago.
+    </span>
+	<span class="likes">
+	  <%= post.likes %>
+	</span>
+	<span class='likes_link'>
+	  <%= link_to 'Dislike', dislike_path(post) %>
+	</span class>
+	<span class="dislikes">
+	  <%= post.dislikes %>
+	</span>
+	<span class="dislikes_link">
+	  <%= link_to 'Dislike', dislike_path(post) %>
+	</span>
+  </td> 
+  <% end %>
+</tr>
+
+<% @posts.each do |post| %>
+<tr>
+  <td><%= post.content %></td>
+  <td><%= link_to 'Like', like_path(post) %></td>
+  <td><%= post.likes %></td>   
+  <td><%= link_to 'Dislike', dislike_path(post) %></td>
+  <td><%= post.dislikes %></td>
+  <td>Posted <%= time_ago_in_words(post.created_at) %> ago.</td>
+</tr>
+<% end %>
+<%= will_paginate @posts %>

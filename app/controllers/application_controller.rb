@@ -1,6 +1,16 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
   
+  def sorted_posts(sort_type)
+    if sort_type == "likes"
+      by_likes
+    elsif sort_type == "dislikes"
+      by_dislikes
+    else
+      by_recency
+    end
+  end
+  
   def by_likes
     all_posts = Post.all
     by_likes_posts = all_posts.sort_by(&:likes).reverse
