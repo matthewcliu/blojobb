@@ -132,22 +132,24 @@ div.feed {
 /*Individual Posts */
 
 div.feed_items {
+  width: 600px;
   margin-top: 0.2em;
 }
 
 div.post_main {
   width: 400px;
-  clear:left;
+  float:left;
 }
 
 div.post_ratings {
-  width: 100px;
+  width: 180px;
   float:right;
   clear: right;
 }
 
 span.content {
   float: left;
+  clear: right;
 }
 
 span.timestamp {
@@ -156,11 +158,15 @@ span.timestamp {
 
 
 span.likes {
+  width: 180px;
   font-size: 0.9em;
+  clear: right;
 }
 
 span.dislikes {
-  font-size: 0.9em;	
+  width: 180px;
+  font-size: 0.9em;
+  clear: left;
 }
 
 
