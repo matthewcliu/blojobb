@@ -2,8 +2,6 @@ Blojobb::Application.routes.draw do
   resources :posts
 
   get "pages/home"
-  get "pages/contact"
-  get "pages/results"
   
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -12,6 +10,9 @@ Blojobb::Application.routes.draw do
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action
 
+  match 'contact' => 'pages#contact'
+  match 'faq' => 'pages#faq'
+  match 'about' => 'pages#about'
   match 'like/:id' => 'likes#like', :as => :like
   match 'dislike/:id' => 'likes#dislike', :as => :dislike
 

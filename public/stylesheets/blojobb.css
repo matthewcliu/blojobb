@@ -1,0 +1,199 @@
+/*To dos 
+1. Center container and change background color to white or very light grey
+2. Change nav class from 'round' to something distinct and add a few more pages
+3. Change nav to grey links with underline (a la viralife)
+4. Change color and style of section 'round'
+5. Round out corners for Post form
+6. Feed_item: Re-arrange span items and background color for table
+7. Feed_item: Font differences for content vs. metadata
+8. Add footer
+9. Fix the fucking font - DONE*/ 
+
+
+
+/*General*/
+
+body {
+	background: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+.container {
+	width: 840px;
+	margin-right: auto;
+	margin-left: auto;
+	background: #fff;
+}
+
+.round {
+  -moz-border-radius:    10px;
+  -webkit-border-radius: 10px;
+  border-radius:         10px;
+}
+
+/*Header and Nav */
+
+header {
+	padding-top: 20px;
+}
+
+header img {
+	background: #fff;
+	padding: 0 1em 0 1em;
+	
+}
+
+nav {
+	float: right;
+	background-color: #fff;
+    padding: 0 0.7em;
+    white-space: nowrap;
+  
+}
+
+nav a {
+	text-decoration: none;
+	letter-spacing: .01em;
+	font-size: 0.9em;
+	font-weight: bold;
+  
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0.2em 0;
+}
+
+nav ul li a {
+  padding: 0 5px;
+}
+
+nav ul li a:visited {
+  color: #09c;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+
+/*Section Main*/
+
+section {
+	padding: 0px 20px 0px 20px;
+	font-size: 100%;
+	background: #fff;
+}
+
+
+/* Form */
+
+
+form.new_post {
+  margin-bottom: 1em;
+}
+
+form.new_post textarea {
+  height: 60px;
+  width: 740px;
+  margin-bottom: 0;
+}
+
+h1 {
+  font: sans-serif;
+  
+}
+
+h1.post {
+  margin-bottom: 0.3em;
+  font: verdana;
+}
+
+/* Sort Links */
+
+div.sort_links {
+  float: right;
+  font-size: 0.8em;
+}
+
+/* Feed */
+
+div.feed {
+  clear: right;
+}
+
+/*Individual Posts */
+
+div.feed_items {
+  margin-top: 0.2em;
+}
+
+div.post_main {
+  width: 400px;
+  clear:left;
+}
+
+div.post_ratings {
+  width: 100px;
+  float:right;
+  clear: right;
+}
+
+span.content {
+  float: left;
+}
+
+span.timestamp {
+  font-size: 0.8em;
+}
+
+
+span.likes {
+  font-size: 0.9em;
+}
+
+span.dislikes {
+  font-size: 0.9em;	
+}
+
+
+
+/*Errors */
+
+#error_explanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#error_explanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+

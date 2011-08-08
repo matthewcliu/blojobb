@@ -1,20 +1,14 @@
-<table class="main">
+<div class="submission">
   <h1 class="post">What makes your job blow?</h1>
-  <td summary="Bitching form">
     <%= render 'posts/form' %>
-  </td>
-</table>
+</div>
 
-<table class="feed">
-  <td class="posts" summary="Newsfeed of posts">
-    <%= render 'feed/feed' %>
-  </td>
-</table>
-
-<table class="sort_links">
-  <td class="sort_links" summary="Sort functionality">
+<div class="sort_links">
     <%= render 'posts/sort_posts' %>
-  </td>
-</table>
+</div>
+
+<div class="feed">
+    <%= render 'feed/feed' %>
+</div>
 
 <%= debug(params) if Rails.env.development? %>
