@@ -14,16 +14,16 @@
 /*General*/
 
 body {
-	background: #fff;
-	font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
 	
 }
 
 .container {
-	width: 840px;
-	margin-right: auto;
-	margin-left: auto;
-	background: #fff;
+  width: 740px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #fff;
 }
 
 .round {
@@ -35,20 +35,20 @@ body {
 /*Header and Nav */
 
 header {
-	padding-top: 20px;
+  padding-top: 20px;
 }
 
 header img {
-	background: #fff;
-	padding: 0 1em 0 1em;
+  background: #fff;
+  padding: 0 1em 0 1em;
 	
 }
 
 nav {
-	float: right;
-	background-color: #fff;
-    padding: 0 0.7em;
-    white-space: nowrap;
+  float: right;
+  background-color: #fff;
+  padding: 0 0.2em;
+  white-space: nowrap;
   
 }
 
@@ -119,41 +119,60 @@ h1.post {
 /* Sort Links */
 
 div.sort_links {
-  float: right;
-  font-size: 0.8em;
+  float: left;
+  clear: right;
+  font-size: 1.2em;
+  height: 30px;
 }
 
 /* Feed */
 
 div.feed {
-  clear: right;
+  clear: both;
 }
 
 /*Individual Posts */
 
 div.feed_items {
-  width: 600px;
+  width: 740px;
+  height: 70px;
+  border-top: 1px solid #ccc;
   margin-top: 0.2em;
+  margin-bottom: 0.2em;
 }
 
 div.post_main {
-  width: 400px;
+  width: 600px;
+  height: 70px:;
   float:left;
 }
 
 div.post_ratings {
-  width: 180px;
+  width: 140px;
   float:right;
   clear: right;
 }
 
 span.content {
   float: left;
+  font-size: 1em;
   clear: right;
+  width: 580px;
+  padding-top:15px;
+  height: 50px;
+}
+
+span.content a {
+  text-decoration: none;
+  font-size: 1em;
+  color: black;
 }
 
 span.timestamp {
+  float: left;
   font-size: 0.8em;
+  width: 280px;
+  height: 5px;
 }
 
 
@@ -161,15 +180,24 @@ span.likes {
   width: 180px;
   font-size: 0.9em;
   clear: right;
+  float: left;
+  padding-top: 15px;
 }
 
 span.dislikes {
   width: 180px;
   font-size: 0.9em;
-  clear: left;
+  float: left;
+  padding-top: 15px;
 }
 
+/*Pagination*/
 
+div.pagination {
+  padding-top: 20px;
+  clear: both;
+  font-size: 1.2em;
+}
 
 /*Errors */
 

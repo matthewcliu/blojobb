@@ -28,6 +28,7 @@ GEM
       activemodel (= 3.0.9)
       activesupport (= 3.0.9)
     activesupport (3.0.9)
+    acts_as_taggable_on_steroids (1.2)
     annotate (2.4.0)
     arel (2.0.10)
     builder (2.1.2)
@@ -99,6 +100,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  acts_as_taggable_on_steroids (~> 1.2)
   annotate (= 2.4.0)
   factory_girl_rails (= 1.0)
   faker (= 0.3.1)

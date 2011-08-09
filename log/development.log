@@ -6668,3 +6668,1161 @@ Rendered feed/_feed.html.erb (9.9ms)
 Rendered layouts/_header.html.erb (2.3ms)
 Rendered pages/home.html.erb within layouts/application (32.1ms)
 Completed 200 OK in 53ms (Views: 38.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 08 01:33:19 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (87.6ms)
+Rendered posts/_sort_posts.html.erb (1.7ms)
+Rendered feed/_feed.html.erb (10.1ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered pages/home.html.erb within layouts/application (115.2ms)
+Completed 200 OK in 135ms (Views: 121.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 08 01:33:52 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.5ms)
+Rendered posts/_sort_posts.html.erb (1.4ms)
+Rendered feed/_feed.html.erb (13.4ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered pages/home.html.erb within layouts/application (32.0ms)
+Completed 200 OK in 51ms (Views: 37.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 08 01:34:31 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.3ms)
+Rendered posts/_sort_posts.html.erb (5.0ms)
+Rendered feed/_feed.html.erb (14.4ms)
+Rendered layouts/_header.html.erb (2.6ms)
+Rendered pages/home.html.erb within layouts/application (39.0ms)
+Completed 200 OK in 64ms (Views: 47.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 08 02:08:31 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.4ms)
+Rendered posts/_sort_posts.html.erb (1.6ms)
+Rendered feed/_feed.html.erb (11.3ms)
+Rendered layouts/_header.html.erb (2.3ms)
+Rendered pages/home.html.erb within layouts/application (711.6ms)
+Completed 200 OK in 1345ms (Views: 1047.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 08 02:08:57 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.0ms)
+Rendered posts/_sort_posts.html.erb (1.4ms)
+Rendered feed/_feed.html.erb (9.8ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 45ms (Views: 32.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 08 02:09:11 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.4ms)
+Rendered posts/_sort_posts.html.erb (1.3ms)
+Rendered feed/_feed.html.erb (9.4ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (25.1ms)
+Completed 200 OK in 45ms (Views: 31.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 08 02:09:36 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.5ms)
+Rendered posts/_sort_posts.html.erb (1.8ms)
+Rendered feed/_feed.html.erb (14.1ms)
+Rendered layouts/_header.html.erb (3.1ms)
+Rendered pages/home.html.erb within layouts/application (34.7ms)
+Completed 200 OK in 54ms (Views: 40.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 08 02:10:26 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.8ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.5ms)
+Rendered posts/_sort_posts.html.erb (1.3ms)
+Rendered feed/_feed.html.erb (9.7ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (25.7ms)
+Completed 200 OK in 49ms (Views: 31.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 08 02:10:50 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.8ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.2ms)
+Rendered posts/_sort_posts.html.erb (1.2ms)
+Rendered feed/_feed.html.erb (78.0ms)
+Rendered layouts/_header.html.erb (2.3ms)
+Rendered pages/home.html.erb within layouts/application (94.2ms)
+Completed 200 OK in 115ms (Views: 100.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 08 02:12:17 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.1ms)
+Rendered posts/_sort_posts.html.erb (1.3ms)
+Rendered feed/_feed.html.erb (9.5ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered pages/home.html.erb within layouts/application (24.8ms)
+Completed 200 OK in 44ms (Views: 30.7ms | ActiveRecord: 0.7ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /Users/matthewliu/Rails/blojobb/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 00:30:23 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[36mPost Load (1.1ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.2ms)
+Rendered posts/_sort_posts.html.erb (1.4ms)
+Rendered feed/_feed.html.erb (77.5ms)
+Rendered layouts/_header.html.erb (2.5ms)
+Rendered pages/home.html.erb within layouts/application (95.9ms)
+Completed 200 OK in 120ms (Views: 102.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 00:50:19 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.0ms)
+Rendered posts/_sort_posts.html.erb (1.2ms)
+Rendered feed/_feed.html.erb (10.2ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (25.1ms)
+Completed 200 OK in 43ms (Views: 31.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 00:51:00 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.2ms)
+Rendered posts/_sort_posts.html.erb (1.4ms)
+Rendered feed/_feed.html.erb (9.7ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered pages/home.html.erb within layouts/application (25.2ms)
+Completed 200 OK in 44ms (Views: 30.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 00:51:28 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.0ms)
+Rendered posts/_sort_posts.html.erb (1.2ms)
+Rendered feed/_feed.html.erb (9.4ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (26.2ms)
+Completed 200 OK in 44ms (Views: 31.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 00:53:38 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.1ms)
+Rendered posts/_sort_posts.html.erb (1.3ms)
+Rendered feed/_feed.html.erb (74.5ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered pages/home.html.erb within layouts/application (90.0ms)
+Completed 200 OK in 108ms (Views: 95.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 00:54:55 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.0ms)
+Rendered posts/_sort_posts.html.erb (1.2ms)
+Rendered feed/_feed.html.erb (9.6ms)
+Rendered layouts/_header.html.erb (1.9ms)
+Rendered pages/home.html.erb within layouts/application (24.3ms)
+Completed 200 OK in 44ms (Views: 30.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 00:56:10 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.2ms)
+Rendered posts/_sort_posts.html.erb (1.6ms)
+Rendered feed/_feed.html.erb (13.1ms)
+Rendered layouts/_header.html.erb (2.4ms)
+Rendered pages/home.html.erb within layouts/application (31.5ms)
+Completed 200 OK in 74ms (Views: 44.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 00:56:53 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[35mPost Load (1.6ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.5ms)
+Rendered posts/_sort_posts.html.erb (10.0ms)
+Rendered feed/_feed.html.erb (9.7ms)
+Rendered layouts/_header.html.erb (2.5ms)
+Rendered pages/home.html.erb within layouts/application (36.0ms)
+Completed 200 OK in 65ms (Views: 45.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 00:57:03 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.1ms)
+Rendered posts/_sort_posts.html.erb (1.2ms)
+Rendered feed/_feed.html.erb (75.0ms)
+Rendered layouts/_header.html.erb (2.5ms)
+Rendered pages/home.html.erb within layouts/application (90.8ms)
+Completed 200 OK in 110ms (Views: 96.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 00:57:18 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.3ms)
+Rendered posts/_sort_posts.html.erb (1.3ms)
+Rendered feed/_feed.html.erb (13.4ms)
+Rendered layouts/_header.html.erb (4.4ms)
+Rendered pages/home.html.erb within layouts/application (38.5ms)
+Completed 200 OK in 60ms (Views: 45.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 00:58:42 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.1ms)
+Rendered posts/_sort_posts.html.erb (1.2ms)
+Rendered feed/_feed.html.erb (8.8ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered pages/home.html.erb within layouts/application (23.8ms)
+Completed 200 OK in 42ms (Views: 29.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 00:59:57 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.2ms)
+Rendered posts/_sort_posts.html.erb (1.2ms)
+Rendered feed/_feed.html.erb (9.8ms)
+Rendered layouts/_header.html.erb (1.9ms)
+Rendered pages/home.html.erb within layouts/application (24.9ms)
+Completed 200 OK in 43ms (Views: 30.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:00:06 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.1ms)
+Rendered posts/_sort_posts.html.erb (1.3ms)
+Rendered feed/_feed.html.erb (76.0ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered pages/home.html.erb within layouts/application (92.2ms)
+Completed 200 OK in 110ms (Views: 98.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:00:30 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.0ms)
+Rendered posts/_sort_posts.html.erb (1.2ms)
+Rendered feed/_feed.html.erb (9.3ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered pages/home.html.erb within layouts/application (24.4ms)
+Completed 200 OK in 43ms (Views: 30.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:01:09 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.0ms)
+Rendered posts/_sort_posts.html.erb (1.2ms)
+Rendered feed/_feed.html.erb (9.3ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered pages/home.html.erb within layouts/application (24.3ms)
+Completed 200 OK in 43ms (Views: 29.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:01:26 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[35mPost Load (63.3ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.1ms)
+Rendered posts/_sort_posts.html.erb (1.3ms)
+Rendered feed/_feed.html.erb (9.3ms)
+Rendered layouts/_header.html.erb (2.3ms)
+Rendered pages/home.html.erb within layouts/application (24.9ms)
+Completed 200 OK in 107ms (Views: 31.4ms | ActiveRecord: 63.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:01:35 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.1ms)
+Rendered posts/_sort_posts.html.erb (1.2ms)
+Rendered feed/_feed.html.erb (8.8ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered pages/home.html.erb within layouts/application (24.2ms)
+Completed 200 OK in 43ms (Views: 29.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:01:44 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.9ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.1ms)
+Rendered posts/_sort_posts.html.erb (1.3ms)
+Rendered feed/_feed.html.erb (9.3ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (24.4ms)
+Completed 200 OK in 43ms (Views: 30.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:02:19 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.1ms)
+Rendered posts/_sort_posts.html.erb (1.2ms)
+Rendered feed/_feed.html.erb (9.0ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 43ms (Views: 29.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:02:31 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.1ms)
+Rendered posts/_sort_posts.html.erb (64.1ms)
+Rendered feed/_feed.html.erb (9.6ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (87.5ms)
+Completed 200 OK in 106ms (Views: 93.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:02:40 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.0ms)
+Rendered posts/_sort_posts.html.erb (1.2ms)
+Rendered feed/_feed.html.erb (9.1ms)
+Rendered layouts/_header.html.erb (1.9ms)
+Rendered pages/home.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 42ms (Views: 29.8ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/posts" for 127.0.0.1 at Tue Aug 09 01:04:24 -0700 2011
+  Processing by PostsController#create as HTML
+  Parameters: {"commit"=>"Argh!!!", "post"=>{"content"=>"Learning CSS is easier than learning Rails data models. this is actually quite fun because of the instantaneous results. HOORAY MOTHERFUCKERS!!!!!!!!!!!!"}, "authenticity_token"=>"ypRTv6l8CYA+MLHAfa3helfbwE2L/4JGPFll5ZcRRhw=", "utf8"=>"\342\234\223"}
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mAREL (0.8ms)[0m  [1mINSERT INTO "posts" ("content", "dislikes", "created_at", "likes", "updated_at") VALUES ('Learning CSS is easier than learning Rails data models. this is actually quite fun because of the instantaneous results. HOORAY MOTHERFUCKERS!!!!!!!!!!!!', 0, '2011-08-09 08:04:24.596800', 0, '2011-08-09 08:04:24.596800')[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 26ms
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:04:24 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.8ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.2ms)
+Rendered posts/_sort_posts.html.erb (1.6ms)
+Rendered feed/_feed.html.erb (9.2ms)
+Rendered layouts/_header.html.erb (1.9ms)
+Rendered pages/home.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 50ms (Views: 31.7ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:06:03 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.1ms)
+Rendered posts/_sort_posts.html.erb (1.3ms)
+Rendered feed/_feed.html.erb (9.8ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered pages/home.html.erb within layouts/application (25.9ms)
+Completed 200 OK in 44ms (Views: 31.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:07:05 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.1ms)
+Rendered posts/_sort_posts.html.erb (1.2ms)
+Rendered feed/_feed.html.erb (76.0ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered pages/home.html.erb within layouts/application (92.0ms)
+Completed 200 OK in 113ms (Views: 99.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/posts/30" for 127.0.0.1 at Tue Aug 09 01:08:15 -0700 2011
+  Processing by PostsController#show as HTML
+  Parameters: {"id"=>"30"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" = 30 ORDER BY posts.created_at DESC LIMIT 1[0m
+Rendered layouts/_header.html.erb (2.5ms)
+Rendered posts/show.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 28ms (Views: 19.8ms | ActiveRecord: 0.2ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /Users/matthewliu/Rails/blojobb/config/environment.rb:5)
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = 30 ORDER BY posts.created_at DESC LIMIT 1
+  [1m[36mAREL (0.4ms)[0m  [1mDELETE FROM "posts" WHERE "posts"."id" = 30[0m
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = 30 ORDER BY posts.created_at DESC LIMIT 1
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:09:31 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[35mPost Load (1.3ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.6ms)
+Rendered posts/_sort_posts.html.erb (2.5ms)
+Rendered feed/_feed.html.erb (15.6ms)
+Rendered layouts/_header.html.erb (2.3ms)
+Rendered pages/home.html.erb within layouts/application (38.4ms)
+Completed 200 OK in 138ms (Views: 123.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:26:23 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.9ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.1ms)
+Rendered posts/_sort_posts.html.erb (1.5ms)
+Rendered feed/_feed.html.erb (11.1ms)
+Rendered layouts/_header.html.erb (2.5ms)
+Rendered pages/home.html.erb within layouts/application (33.6ms)
+Completed 200 OK in 59ms (Views: 41.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/posts/5" for 127.0.0.1 at Tue Aug 09 01:26:29 -0700 2011
+  Processing by PostsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = 5 ORDER BY posts.created_at DESC LIMIT 1
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered posts/show.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 29ms (Views: 19.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts/6" for 127.0.0.1 at Tue Aug 09 01:26:43 -0700 2011
+  Processing by PostsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" = 6 ORDER BY posts.created_at DESC LIMIT 1[0m
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered posts/show.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 34ms (Views: 25.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts/6" for 127.0.0.1 at Tue Aug 09 01:27:29 -0700 2011
+  Processing by PostsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = 6 ORDER BY posts.created_at DESC LIMIT 1
+Rendered layouts/_header.html.erb (6.5ms)
+Rendered posts/show.html.erb within layouts/application (22.9ms)
+Completed 200 OK in 50ms (Views: 29.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts/6" for 127.0.0.1 at Tue Aug 09 01:30:25 -0700 2011
+  Processing by PostsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" = 6 ORDER BY posts.created_at DESC LIMIT 1[0m
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered posts/show.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 31ms (Views: 22.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts/6" for 127.0.0.1 at Tue Aug 09 01:30:52 -0700 2011
+  Processing by PostsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = 6 ORDER BY posts.created_at DESC LIMIT 1
+Rendered layouts/_header.html.erb (2.3ms)
+Rendered posts/show.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 29ms (Views: 21.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:32:46 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.8ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.4ms)
+Rendered posts/_sort_posts.html.erb (1.2ms)
+Rendered feed/_feed.html.erb (81.6ms)
+Rendered layouts/_header.html.erb (2.4ms)
+Rendered pages/home.html.erb within layouts/application (98.0ms)
+Completed 200 OK in 120ms (Views: 104.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:33:39 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[35mPost Load (1.2ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.6ms)
+Rendered posts/_sort_posts.html.erb (1.6ms)
+Rendered feed/_feed.html.erb (11.4ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (28.6ms)
+Completed 200 OK in 56ms (Views: 35.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:34:00 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.2ms)
+Rendered posts/_sort_posts.html.erb (1.4ms)
+Rendered feed/_feed.html.erb (112.5ms)
+Rendered layouts/_header.html.erb (2.3ms)
+Rendered pages/home.html.erb within layouts/application (132.4ms)
+Completed 200 OK in 151ms (Views: 138.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:38:35 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.4ms)
+Rendered posts/_sort_posts.html.erb (1.2ms)
+Rendered feed/_feed.html.erb (10.1ms)
+Rendered layouts/_header.html.erb (2.4ms)
+Rendered pages/home.html.erb within layouts/application (26.2ms)
+Completed 200 OK in 45ms (Views: 32.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:39:17 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.3ms)
+Rendered posts/_sort_posts.html.erb (1.3ms)
+Rendered feed/_feed.html.erb (10.0ms)
+Rendered layouts/_header.html.erb (1.9ms)
+Rendered pages/home.html.erb within layouts/application (25.9ms)
+Completed 200 OK in 45ms (Views: 31.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:39:43 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.6ms)
+Rendered posts/_sort_posts.html.erb (1.4ms)
+Rendered feed/_feed.html.erb (10.5ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered pages/home.html.erb within layouts/application (28.1ms)
+Completed 200 OK in 50ms (Views: 35.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:41:32 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.8ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.2ms)
+Rendered posts/_sort_posts.html.erb (1.3ms)
+Rendered feed/_feed.html.erb (9.1ms)
+Rendered layouts/_header.html.erb (2.4ms)
+Rendered pages/home.html.erb within layouts/application (92.2ms)
+Completed 200 OK in 112ms (Views: 98.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:41:42 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.1ms)
+Rendered posts/_sort_posts.html.erb (1.2ms)
+Rendered feed/_feed.html.erb (9.3ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered pages/home.html.erb within layouts/application (24.6ms)
+Completed 200 OK in 44ms (Views: 30.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:42:13 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.8ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.1ms)
+Rendered posts/_sort_posts.html.erb (1.7ms)
+Rendered feed/_feed.html.erb (9.6ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 46ms (Views: 31.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:42:37 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.2ms)
+Rendered posts/_sort_posts.html.erb (74.3ms)
+Rendered feed/_feed.html.erb (10.7ms)
+Rendered layouts/_header.html.erb (2.4ms)
+Rendered pages/home.html.erb within layouts/application (104.9ms)
+Completed 200 OK in 125ms (Views: 110.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:42:52 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.1ms)
+Rendered posts/_sort_posts.html.erb (1.6ms)
+Rendered feed/_feed.html.erb (10.5ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered pages/home.html.erb within layouts/application (26.7ms)
+Completed 200 OK in 50ms (Views: 32.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:43:44 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.1ms)
+Rendered posts/_sort_posts.html.erb (1.3ms)
+Rendered feed/_feed.html.erb (9.1ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (24.5ms)
+Completed 200 OK in 43ms (Views: 30.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:43:56 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.0ms)
+Rendered posts/_sort_posts.html.erb (1.3ms)
+Rendered feed/_feed.html.erb (8.9ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (24.3ms)
+Completed 200 OK in 43ms (Views: 30.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:44:24 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.5ms)
+Rendered posts/_sort_posts.html.erb (1.3ms)
+Rendered feed/_feed.html.erb (9.5ms)
+Rendered layouts/_header.html.erb (71.5ms)
+Rendered pages/home.html.erb within layouts/application (96.0ms)
+Completed 200 OK in 121ms (Views: 102.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:44:55 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.1ms)
+Rendered posts/_sort_posts.html.erb (1.5ms)
+Rendered feed/_feed.html.erb (9.5ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (26.1ms)
+Completed 200 OK in 45ms (Views: 32.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:45:25 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.0ms)
+Rendered posts/_sort_posts.html.erb (1.7ms)
+Rendered feed/_feed.html.erb (9.3ms)
+Rendered layouts/_header.html.erb (1.9ms)
+Rendered pages/home.html.erb within layouts/application (24.6ms)
+Completed 200 OK in 43ms (Views: 30.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:45:54 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.1ms)
+Rendered posts/_sort_posts.html.erb (68.9ms)
+Rendered feed/_feed.html.erb (9.7ms)
+Rendered layouts/_header.html.erb (2.6ms)
+Rendered pages/home.html.erb within layouts/application (94.2ms)
+Completed 200 OK in 113ms (Views: 100.1ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/posts" for 127.0.0.1 at Tue Aug 09 01:46:22 -0700 2011
+  Processing by PostsController#create as HTML
+  Parameters: {"commit"=>"Argh!!!", "post"=>{"content"=>"This is a slightly longer post. How many characters can I fit in here? This site is still very basic, but at least it looks normal now."}, "authenticity_token"=>"ypRTv6l8CYA+MLHAfa3helfbwE2L/4JGPFll5ZcRRhw=", "utf8"=>"\342\234\223"}
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "posts" ("content", "updated_at", "created_at", "dislikes", "likes") VALUES ('This is a slightly longer post. How many characters can I fit in here? This site is still very basic, but at least it looks normal now.', '2011-08-09 08:46:22.994601', '2011-08-09 08:46:22.994601', 0, 0)
+Redirected to http://localhost:3000/
+Completed 302 Found in 16ms
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:46:23 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.1ms)
+Rendered posts/_sort_posts.html.erb (1.3ms)
+Rendered feed/_feed.html.erb (78.6ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (94.1ms)
+Completed 200 OK in 113ms (Views: 100.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:46:41 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.8ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.1ms)
+Rendered posts/_sort_posts.html.erb (1.3ms)
+Rendered feed/_feed.html.erb (21.0ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered pages/home.html.erb within layouts/application (37.2ms)
+Completed 200 OK in 61ms (Views: 43.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:47:00 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.8ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.1ms)
+Rendered posts/_sort_posts.html.erb (1.7ms)
+Rendered feed/_feed.html.erb (10.1ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered pages/home.html.erb within layouts/application (28.1ms)
+Completed 200 OK in 58ms (Views: 34.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:47:18 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.5ms)
+Rendered posts/_sort_posts.html.erb (1.5ms)
+Rendered feed/_feed.html.erb (113.1ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered pages/home.html.erb within layouts/application (132.2ms)
+Completed 200 OK in 154ms (Views: 140.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:47:23 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.2ms)
+Rendered posts/_sort_posts.html.erb (1.8ms)
+Rendered feed/_feed.html.erb (9.8ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered pages/home.html.erb within layouts/application (25.9ms)
+Completed 200 OK in 45ms (Views: 31.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:47:30 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.8ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.6ms)
+Rendered posts/_sort_posts.html.erb (1.8ms)
+Rendered feed/_feed.html.erb (9.5ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (26.2ms)
+Completed 200 OK in 46ms (Views: 32.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:48:07 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.1ms)
+Rendered posts/_sort_posts.html.erb (1.3ms)
+Rendered feed/_feed.html.erb (9.9ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (25.2ms)
+Completed 200 OK in 45ms (Views: 31.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:48:37 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[35mPost Load (2.3ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.4ms)
+Rendered posts/_sort_posts.html.erb (1.5ms)
+Rendered feed/_feed.html.erb (14.4ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered pages/home.html.erb within layouts/application (125.7ms)
+Completed 200 OK in 151ms (Views: 132.2ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:49:42 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.2ms)
+Rendered posts/_sort_posts.html.erb (1.5ms)
+Rendered feed/_feed.html.erb (9.1ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered pages/home.html.erb within layouts/application (24.9ms)
+Completed 200 OK in 44ms (Views: 30.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pages/home?sort=created_at" for 127.0.0.1 at Tue Aug 09 01:53:47 -0700 2011
+  Processing by PagesController#home as HTML
+  Parameters: {"sort"=>"created_at"}
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.2ms)
+Rendered posts/_sort_posts.html.erb (1.6ms)
+Rendered feed/_feed.html.erb (9.6ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered pages/home.html.erb within layouts/application (26.7ms)
+Completed 200 OK in 46ms (Views: 32.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pages/home?sort=likes" for 127.0.0.1 at Tue Aug 09 01:53:49 -0700 2011
+  Processing by PagesController#home as HTML
+  Parameters: {"sort"=>"likes"}
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.2ms)
+Rendered posts/_sort_posts.html.erb (1.3ms)
+Rendered feed/_feed.html.erb (10.9ms)
+Rendered layouts/_header.html.erb (3.6ms)
+Rendered pages/home.html.erb within layouts/application (100.5ms)
+Completed 200 OK in 122ms (Views: 107.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pages/home?sort=dislikes" for 127.0.0.1 at Tue Aug 09 01:53:51 -0700 2011
+  Processing by PagesController#home as HTML
+  Parameters: {"sort"=>"dislikes"}
+  [1m[35mPost Load (1.3ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.3ms)
+Rendered posts/_sort_posts.html.erb (1.5ms)
+Rendered feed/_feed.html.erb (12.1ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered pages/home.html.erb within layouts/application (28.3ms)
+Completed 200 OK in 48ms (Views: 34.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/pages/home?sort=created_at" for 127.0.0.1 at Tue Aug 09 01:53:56 -0700 2011
+  Processing by PagesController#home as HTML
+  Parameters: {"sort"=>"created_at"}
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.1ms)
+Rendered posts/_sort_posts.html.erb (1.3ms)
+Rendered feed/_feed.html.erb (10.2ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (26.1ms)
+Completed 200 OK in 48ms (Views: 32.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pages/home?sort=likes" for 127.0.0.1 at Tue Aug 09 01:53:57 -0700 2011
+  Processing by PagesController#home as HTML
+  Parameters: {"sort"=>"likes"}
+  [1m[35mPost Load (0.8ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.6ms)
+Rendered posts/_sort_posts.html.erb (1.3ms)
+Rendered feed/_feed.html.erb (10.6ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered pages/home.html.erb within layouts/application (27.5ms)
+Completed 200 OK in 47ms (Views: 34.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pages/home?sort=dislikes" for 127.0.0.1 at Tue Aug 09 01:53:58 -0700 2011
+  Processing by PagesController#home as HTML
+  Parameters: {"sort"=>"dislikes"}
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.8ms)
+Rendered posts/_sort_posts.html.erb (1.6ms)
+Rendered feed/_feed.html.erb (12.3ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (28.7ms)
+Completed 200 OK in 47ms (Views: 35.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pages/home?sort=created_at" for 127.0.0.1 at Tue Aug 09 01:54:02 -0700 2011
+  Processing by PagesController#home as HTML
+  Parameters: {"sort"=>"created_at"}
+  [1m[35mPost Load (1.1ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (78.3ms)
+Rendered posts/_sort_posts.html.erb (1.4ms)
+Rendered feed/_feed.html.erb (10.8ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered pages/home.html.erb within layouts/application (104.9ms)
+Completed 200 OK in 125ms (Views: 111.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/posts/5" for 127.0.0.1 at Tue Aug 09 01:54:13 -0700 2011
+  Processing by PostsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" = 5 ORDER BY posts.created_at DESC LIMIT 1[0m
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered posts/show.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 39ms (Views: 23.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 09 01:54:44 -0700 2011
+  Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.1ms)
+Rendered posts/_sort_posts.html.erb (1.2ms)
+Rendered feed/_feed.html.erb (9.5ms)
+Rendered layouts/_header.html.erb (2.3ms)
+Rendered pages/home.html.erb within layouts/application (26.4ms)
+Completed 200 OK in 47ms (Views: 32.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pages/home?sort=dislikes" for 127.0.0.1 at Tue Aug 09 01:55:45 -0700 2011
+  Processing by PagesController#home as HTML
+  Parameters: {"sort"=>"dislikes"}
+  [1m[36mPost Load (0.8ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.2ms)
+Rendered posts/_sort_posts.html.erb (1.3ms)
+Rendered feed/_feed.html.erb (9.8ms)
+Rendered layouts/_header.html.erb (2.3ms)
+Rendered pages/home.html.erb within layouts/application (27.1ms)
+Completed 200 OK in 45ms (Views: 32.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pages/home?sort=likes" for 127.0.0.1 at Tue Aug 09 01:55:46 -0700 2011
+  Processing by PagesController#home as HTML
+  Parameters: {"sort"=>"likes"}
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.1ms)
+Rendered posts/_sort_posts.html.erb (1.3ms)
+Rendered feed/_feed.html.erb (10.3ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered pages/home.html.erb within layouts/application (28.4ms)
+Completed 200 OK in 48ms (Views: 34.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pages/home?sort=created_at" for 127.0.0.1 at Tue Aug 09 01:55:47 -0700 2011
+  Processing by PagesController#home as HTML
+  Parameters: {"sort"=>"created_at"}
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.3ms)
+Rendered posts/_sort_posts.html.erb (1.8ms)
+Rendered feed/_feed.html.erb (9.3ms)
+Rendered layouts/_header.html.erb (2.4ms)
+Rendered pages/home.html.erb within layouts/application (30.1ms)
+Completed 200 OK in 125ms (Views: 36.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pages/home?sort=created_at" for 127.0.0.1 at Tue Aug 09 01:56:31 -0700 2011
+  Processing by PagesController#home as HTML
+  Parameters: {"sort"=>"created_at"}
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.2ms)
+Rendered posts/_sort_posts.html.erb (1.6ms)
+Rendered feed/_feed.html.erb (9.9ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered pages/home.html.erb within layouts/application (28.7ms)
+Completed 200 OK in 48ms (Views: 34.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pages/home?sort=created_at" for 127.0.0.1 at Tue Aug 09 01:57:07 -0700 2011
+  Processing by PagesController#home as HTML
+  Parameters: {"sort"=>"created_at"}
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.2ms)
+Rendered posts/_sort_posts.html.erb (1.5ms)
+Rendered feed/_feed.html.erb (11.8ms)
+Rendered layouts/_header.html.erb (2.3ms)
+Rendered pages/home.html.erb within layouts/application (29.1ms)
+Completed 200 OK in 63ms (Views: 39.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pages/home?sort=created_at" for 127.0.0.1 at Tue Aug 09 01:59:26 -0700 2011
+  Processing by PagesController#home as HTML
+  Parameters: {"sort"=>"created_at"}
+  [1m[35mPost Load (2.4ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.1ms)
+Rendered posts/_sort_posts.html.erb (1.2ms)
+Rendered feed/_feed.html.erb (83.5ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered pages/home.html.erb within layouts/application (99.0ms)
+Completed 200 OK in 121ms (Views: 105.6ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/pages/This%20is%20a%20slightly%20longer%20post.%20How%20many%20characters%20can%20I%20fit%20in%20here?%20This%20site%20is%20still%20very%20basic,%20but%20at%20least%20it%20looks%20normal%20now." for 127.0.0.1 at Tue Aug 09 01:59:35 -0700 2011
+
+ActionController::RoutingError (No route matches "/pages/This%20is%20a%20slightly%20longer%20post.%20How%20many%20characters%20can%20I%20fit%20in%20here"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/pages/home?sort=created_at" for 127.0.0.1 at Tue Aug 09 02:00:07 -0700 2011
+  Processing by PagesController#home as HTML
+  Parameters: {"sort"=>"created_at"}
+  [1m[36mPost Load (0.8ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.3ms)
+Rendered posts/_sort_posts.html.erb (1.3ms)
+Rendered feed/_feed.html.erb (10.8ms)
+Rendered layouts/_header.html.erb (2.3ms)
+Rendered pages/home.html.erb within layouts/application (28.2ms)
+Completed 200 OK in 50ms (Views: 34.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pages/home?sort=created_at" for 127.0.0.1 at Tue Aug 09 02:00:41 -0700 2011
+  Processing by PagesController#home as HTML
+  Parameters: {"sort"=>"created_at"}
+  [1m[35mPost Load (0.8ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.1ms)
+Rendered posts/_sort_posts.html.erb (1.4ms)
+Rendered feed/_feed.html.erb (12.6ms)
+Rendered layouts/_header.html.erb (2.4ms)
+Rendered pages/home.html.erb within layouts/application (29.5ms)
+Completed 200 OK in 51ms (Views: 35.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/posts/29" for 127.0.0.1 at Tue Aug 09 02:00:43 -0700 2011
+  Processing by PostsController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" = 29 ORDER BY posts.created_at DESC LIMIT 1[0m
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered posts/show.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 100ms (Views: 92.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts/31" for 127.0.0.1 at Tue Aug 09 02:00:47 -0700 2011
+  Processing by PostsController#show as HTML
+  Parameters: {"id"=>"31"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = 31 ORDER BY posts.created_at DESC LIMIT 1
+Rendered layouts/_header.html.erb (3.1ms)
+Rendered posts/show.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 30ms (Views: 21.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/home?sort=created_at" for 127.0.0.1 at Tue Aug 09 02:00:51 -0700 2011
+  Processing by PagesController#home as HTML
+  Parameters: {"sort"=>"created_at"}
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.4ms)
+Rendered posts/_sort_posts.html.erb (1.4ms)
+Rendered feed/_feed.html.erb (12.9ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered pages/home.html.erb within layouts/application (30.0ms)
+Completed 200 OK in 50ms (Views: 36.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pages/home?sort=created_at" for 127.0.0.1 at Tue Aug 09 02:03:28 -0700 2011
+  Processing by PagesController#home as HTML
+  Parameters: {"sort"=>"created_at"}
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.4ms)
+Rendered posts/_sort_posts.html.erb (2.0ms)
+Rendered feed/_feed.html.erb (13.4ms)
+Rendered layouts/_header.html.erb (1.9ms)
+Rendered pages/home.html.erb within layouts/application (30.6ms)
+Completed 200 OK in 53ms (Views: 37.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pages/home?sort=created_at" for 127.0.0.1 at Tue Aug 09 02:03:40 -0700 2011
+  Processing by PagesController#home as HTML
+  Parameters: {"sort"=>"created_at"}
+  [1m[36mPost Load (1.9ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.2ms)
+Rendered posts/_sort_posts.html.erb (1.4ms)
+Rendered feed/_feed.html.erb (13.0ms)
+Rendered layouts/_header.html.erb (2.9ms)
+Rendered pages/home.html.erb within layouts/application (31.6ms)
+Completed 200 OK in 121ms (Views: 37.2ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/pages/home?sort=created_at" for 127.0.0.1 at Tue Aug 09 02:03:48 -0700 2011
+  Processing by PagesController#home as HTML
+  Parameters: {"sort"=>"created_at"}
+  [1m[35mPost Load (1.2ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.3ms)
+Rendered posts/_sort_posts.html.erb (1.2ms)
+Rendered feed/_feed.html.erb (12.6ms)
+Rendered layouts/_header.html.erb (2.5ms)
+Rendered pages/home.html.erb within layouts/application (108.5ms)
+Completed 200 OK in 129ms (Views: 114.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/pages/home?sort=created_at" for 127.0.0.1 at Tue Aug 09 02:04:34 -0700 2011
+  Processing by PagesController#home as HTML
+  Parameters: {"sort"=>"created_at"}
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.3ms)
+Rendered posts/_sort_posts.html.erb (1.4ms)
+Rendered feed/_feed.html.erb (13.5ms)
+Rendered layouts/_header.html.erb (4.7ms)
+Rendered pages/home.html.erb within layouts/application (34.6ms)
+Completed 200 OK in 58ms (Views: 42.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pages/home?sort=created_at" for 127.0.0.1 at Tue Aug 09 02:04:59 -0700 2011
+  Processing by PagesController#home as HTML
+  Parameters: {"sort"=>"created_at"}
+  [1m[35mPost Load (0.8ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.7ms)
+Rendered posts/_sort_posts.html.erb (1.4ms)
+Rendered feed/_feed.html.erb (13.3ms)
+Rendered layouts/_header.html.erb (1.9ms)
+Rendered pages/home.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 56ms (Views: 37.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pages/home?sort=created_at" for 127.0.0.1 at Tue Aug 09 02:05:19 -0700 2011
+  Processing by PagesController#home as HTML
+  Parameters: {"sort"=>"created_at"}
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.4ms)
+Rendered posts/_sort_posts.html.erb (1.4ms)
+Rendered feed/_feed.html.erb (13.5ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (31.5ms)
+Completed 200 OK in 51ms (Views: 37.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pages/home?sort=created_at" for 127.0.0.1 at Tue Aug 09 02:05:31 -0700 2011
+  Processing by PagesController#home as HTML
+  Parameters: {"sort"=>"created_at"}
+  [1m[35mPost Load (0.8ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.2ms)
+Rendered posts/_sort_posts.html.erb (1.3ms)
+Rendered feed/_feed.html.erb (85.9ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered pages/home.html.erb within layouts/application (102.7ms)
+Completed 200 OK in 124ms (Views: 108.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pages/home?sort=created_at" for 127.0.0.1 at Tue Aug 09 02:06:09 -0700 2011
+  Processing by PagesController#home as HTML
+  Parameters: {"sort"=>"created_at"}
+  [1m[36mPost Load (0.9ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.5ms)
+Rendered posts/_sort_posts.html.erb (2.2ms)
+Rendered feed/_feed.html.erb (12.3ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (29.5ms)
+Completed 200 OK in 52ms (Views: 35.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/pages/home?sort=created_at" for 127.0.0.1 at Tue Aug 09 02:06:24 -0700 2011
+  Processing by PagesController#home as HTML
+  Parameters: {"sort"=>"created_at"}
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC
+Rendered posts/_form.html.erb (2.2ms)
+Rendered posts/_sort_posts.html.erb (1.6ms)
+Rendered feed/_feed.html.erb (13.1ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered pages/home.html.erb within layouts/application (31.3ms)
+Completed 200 OK in 52ms (Views: 37.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/posts/28" for 127.0.0.1 at Tue Aug 09 02:06:27 -0700 2011
+  Processing by PostsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" = 28 ORDER BY posts.created_at DESC LIMIT 1[0m
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered posts/show.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 28ms (Views: 20.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts/31" for 127.0.0.1 at Tue Aug 09 02:06:31 -0700 2011
+  Processing by PostsController#show as HTML
+  Parameters: {"id"=>"31"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = 31 ORDER BY posts.created_at DESC LIMIT 1
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered posts/show.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 27ms (Views: 20.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts/29" for 127.0.0.1 at Tue Aug 09 02:06:34 -0700 2011
+  Processing by PostsController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" = 29 ORDER BY posts.created_at DESC LIMIT 1[0m
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered posts/show.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 26ms (Views: 19.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts/28" for 127.0.0.1 at Tue Aug 09 02:06:36 -0700 2011
+  Processing by PostsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = 28 ORDER BY posts.created_at DESC LIMIT 1
+Rendered layouts/_header.html.erb (2.4ms)
+Rendered posts/show.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 30ms (Views: 20.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/home?sort=created_at" for 127.0.0.1 at Tue Aug 09 02:07:26 -0700 2011
+  Processing by PagesController#home as HTML
+  Parameters: {"sort"=>"created_at"}
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY posts.created_at DESC[0m
+Rendered posts/_form.html.erb (2.6ms)
+Rendered posts/_sort_posts.html.erb (1.3ms)
+Rendered feed/_feed.html.erb (12.8ms)
+Rendered layouts/_header.html.erb (2.3ms)
+Rendered pages/home.html.erb within layouts/application (29.2ms)
+Completed 200 OK in 49ms (Views: 36.1ms | ActiveRecord: 0.7ms)

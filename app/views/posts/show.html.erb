@@ -1,14 +1,19 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <b>Content:</b>
-  <%= @post.content %>
-  <%= @post.likes %>
-</p>
+<div class="feed_items">
+	<div class="post_main">
+    <span class="content"><%= @post.content %></span>
+    <span class="timestamp">Posted <%= time_ago_in_words(@post.created_at) %> ago.</span>
+	</div>
+	<div class="post_ratings">
+	  <span class="likes"><%= @post.likes %>
+      <%= link_to 'likes', like_path(@post) %></span>
+    <span class="dislikes"><%= @post.dislikes %>
+      <%= link_to 'dislikes', dislike_path(@post) %></span>
+	</div>
+</div></br>
 
 
-<%= link_to 'Edit', edit_post_path(@post) %> |
-<%= link_to 'Back', posts_path %>
-<%= link_to 'Like', post_path(@post), :method => :put %>
+<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:comments href="www.blojobb.com/posts" num_posts="3" width="600"></fb:comments>
 
 <%= debug(params) if Rails.env.development? %>
