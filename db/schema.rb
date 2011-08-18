@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110805082822) do
+ActiveRecord::Schema.define(:version => 20110811072805) do
 
   create_table "posts", :force => true do |t|
     t.string   "content"
@@ -19,5 +19,24 @@ ActiveRecord::Schema.define(:version => 20110805082822) do
     t.integer  "likes",      :default => 0
     t.integer  "dislikes",   :default => 0
   end
+
+  create_table "relationships", :force => true do |t|
+    t.integer  "post_id"
+    t.integer  "tag_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "relationships", ["post_id", "tag_id"], :name => "index_relationships_on_post_id_and_tag_id", :unique => true
+  add_index "relationships", ["post_id"], :name => "index_relationships_on_post_id"
+  add_index "relationships", ["tag_id"], :name => "index_relationships_on_tag_id"
+
+  create_table "tags", :force => true do |t|
+    t.string   "tag_value"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "tags", ["tag_value"], :name => "index_tags_on_tag_value"
 
 end

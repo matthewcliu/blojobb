@@ -12,8 +12,13 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="content">
     <%= f.text_area :content, :rows => 12 %>
+  </div>
+
+  <div class="tags">
+	<%= f.label :tag_names %><br />
+	<%= f.text_area :tag_names %>
   </div>
 
   <div class="actions">
