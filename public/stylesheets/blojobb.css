@@ -21,6 +21,7 @@ body {
 
 .container {
   width: 740px;
+  height: 900px;
   margin-right: auto;
   margin-left: auto;
   background: #fff;
@@ -40,13 +41,26 @@ header {
 
 header img {
   background: #fff;
-  padding: 0 1em 0 1em;
-	
+  padding: 0 1em 0 1em;	
+  float: left;
+}
+
+div.logo {
+  float: left;
+  height: 50px;
+  width: 250px;
+}
+
+div.search {
+  float: left;
+  height: 50px;
+  width: 200x;
 }
 
 nav {
   float: right;
   background-color: #fff;
+  margin-top: 1em;
   padding: 0 0.2em;
   white-space: nowrap;
   
@@ -92,6 +106,11 @@ section {
 	background: #fff;
 }
 
+div.subtitle {
+  float: left;
+  clear: left;
+}
+
 
 /* Form */
 
@@ -134,8 +153,9 @@ div.feed {
 /*Individual Posts */
 
 div.feed_items {
+  float: left;
   width: 740px;
-  height: 95px;
+  height: 105px;
   border-top: 1px solid #ccc;
   margin-top: 0.2em;
   margin-bottom: 0.2em;

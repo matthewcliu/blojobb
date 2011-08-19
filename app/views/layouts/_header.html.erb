@@ -1,6 +1,13 @@
 <header>
   
+  <div class="logo">
   <%= link_to logo, root_path %>
+  </div>
+
+  <div class="search">
+  <%= render 'posts/search' %>
+  </div>
+
   <nav class="round">
     <ul>
       <li><%= link_to "Home", root_path %></li>
