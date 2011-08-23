@@ -26,4 +26,8 @@ class ApplicationController < ActionController::Base
     by_recency_posts = all_posts.sort_by(&:created_at).reverse  
   end
   
+  def relationship_search(tag)
+    matching_relationships = Relationship.find(:all, :conditions => ['tag_value LIKE ?', "%#{tag}%"])
+  end
+  
 end

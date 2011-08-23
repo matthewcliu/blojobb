@@ -15,6 +15,8 @@ Blojobb::Application.routes.draw do
   match 'about' => 'pages#about'
   match 'like/:id' => 'likes#like', :as => :like
   match 'dislike/:id' => 'likes#dislike', :as => :dislike
+  match 'search' => 'search#search', :as => :search
+  #match 'posts?utf8=✓&search=:format' => 'posts#index', :as => :posts
 
 
   # Sample of named route:

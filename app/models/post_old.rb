@@ -18,6 +18,15 @@ class Post < ActiveRecord::Base
     @tag_names || tags.map(&:name).join(' ')
   end
   
+  def self.search(search)
+    if search
+      #Search content column for ?, which maps to the params coming from the search form
+      find(:all, :conditions => ['content LIKE ?', "%#{search}%"])
+    else
+      Post.all
+    end
+  end
+  
   private
   
   def assign_tags
