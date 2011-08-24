@@ -230,6 +230,14 @@ div.pagination {
   font-size: 1.2em;
 }
 
+div.debug {
+  padding-top: 20px;
+  width: 500px;
+  height: 100px;
+  float: both;
+  clear: both;
+}
+
 /*Errors */
 
 #error_explanation {

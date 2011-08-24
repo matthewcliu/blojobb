@@ -16,6 +16,7 @@ Blojobb::Application.routes.draw do
   match 'like/:id' => 'likes#like', :as => :like
   match 'dislike/:id' => 'likes#dislike', :as => :dislike
   match 'search' => 'search#search', :as => :search
+  match 'tag/:tag' => 'tags#show', :as => :tag
   #match 'posts?utf8=✓&search=:format' => 'posts#index', :as => :posts
 
 

@@ -5,7 +5,7 @@
 	  <span class="tags">
 	    <%='Tags: '%> 
 		<% post.tags.each do |tag| %>
-	      <%= tag.tag_value %>
+	      <%= link_to tag.tag_value, tag_path(tag.tag_value) %>
 	    <% end %>
 	  </span>
       <span class="timestamp">Posted <%= time_ago_in_words(post.created_at) %> ago.</span>
