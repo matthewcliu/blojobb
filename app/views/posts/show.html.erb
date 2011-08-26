@@ -1,23 +1,19 @@
-<p id="notice"><%= notice %></p>
-
-<div class="feed_items">
+  <div class="feed_items">
 	<div class="post_main">
-      <span class="content"><%= @post.content %></span>
+      <span class="content"><%= link_to @post.content, post_path(@post) %></span>
+	  <span class="tags">
+	    <%='Tags: '%> 
+		<% @post.tags.each do |tag| %>
+	      <%= link_to tag.tag_value, tag_path(tag.tag_value) %>
+	    <% end %>
+	  </span>
       <span class="timestamp">Posted <%= time_ago_in_words(@post.created_at) %> ago.</span>
 	</div>
 	<div class="post_ratings">
-	  <span class="likes"><%= @post.likes %>
-      <%= link_to 'likes', like_path(@post) %></span>
+  	  <span class="likes"><%= @post.likes %>
+        <%= link_to 'likes', like_path(@post) %></span>
       <span class="dislikes"><%= @post.dislikes %>
-      <%= link_to 'dislikes', dislike_path(@post) %></span>
+        <%= link_to 'dislikes', dislike_path(@post) %></span>
 	</div>
-	<div class="post_tags">
-	  <span class="tags">
-	  <% @post.tags.each do |tag| %>
-	    <%= tag.tag_value %>
-	  <% end %>
-	  </span>
-	</div>
-</div></br>
-
+  </div></br>
 

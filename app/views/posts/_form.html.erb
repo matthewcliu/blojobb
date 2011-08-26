@@ -17,11 +17,11 @@
   </div>
 
   <div class="tags">
-	<%= f.label :Add_tags %><br />
+	<%= f.label :tag_names, 'Tags', :class => 'tags_label' %><br />
 	<%= f.text_area :tag_names %>
   </div>
 
-  <div class="actions">
-    <%= f.submit 'Argh!!!' %>
+  <div class="actions" id="post_submit">
+    <%= f.submit 'Argh!!!', :class => 'btn primary', :id => 'arghbutton' %>
   </div>
 <% end %>

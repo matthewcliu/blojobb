@@ -62,7 +62,7 @@ header img {
 }*/
 
 div.search {
-  float: left;
+  float: right;
   height: 40px;
 }
 
@@ -76,6 +76,23 @@ div.underbar {
   height: 60px;
   float: left;
   clear: right;
+}
+
+
+.topbar form input {
+  width: 200px;
+  height: 25;
+}
+
+#searchbutton {
+  width: 80px;
+  height: 28px;
+}
+
+.flash.success {
+  background-color: whiteSmoke;
+  padding: 4px;
+  font-size: 14px;	
 }
 
 /*nav {
@@ -151,6 +168,24 @@ form.new_post textarea {
   margin-bottom: 0;
 }
 
+.tags_label {
+  text-align: left;
+  font-size: 1.3em;
+  padding: 10px 0px 10px 0px;
+}
+
+#post_tag_names {
+  height: 35px;
+}
+
+#post_submit {
+  padding-left: 20px;
+}
+
+#arghbutton {
+  width: 80px;
+}
+
 h1 {
   font: sans-serif;
   
@@ -166,7 +201,7 @@ h1.post {
 div.sort_links {
   float: left;
   clear: both;
-  font-size: 1.2em;
+  font-size: 1.3em;
   height: 30px;
 }
 
@@ -212,13 +247,13 @@ span.content {
 
 span.content a {
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1.1em;
   color: black;
 }
 
 span.tags {
   color: #38ACEC;
-  font-size: 0.9em;
+  font-size: 1.0em;
   float: left;
   clear: right;
   width: 580px;
@@ -228,7 +263,7 @@ span.tags {
 
 span.timestamp {
   float: left;
-  font-size: 0.7em;
+  font-size: 0.8em;
   width: 280px;
   height: 5px;
   padding-top: 10px;
@@ -237,7 +272,7 @@ span.timestamp {
 
 span.likes {
   width: 180px;
-  font-size: 0.8em;
+  font-size: 0.9em;
   clear: right;
   float: left;
   padding-top: 15px;
@@ -245,7 +280,7 @@ span.likes {
 
 span.dislikes {
   width: 180px;
-  font-size: 0.8em;
+  font-size: 0.9em;
   float: left;
   padding-top: 15px;
 }

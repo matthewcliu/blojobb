@@ -6,11 +6,11 @@ class LikesController < ApplicationController
     if @post.likes == nil
       @post.likes = 1
       @post.save
-      redirect_to(root_path)
+      redirect_to :back
     else
       @post.likes += 1
       @post.save
-      redirect_to(root_path)
+      redirect_to :back
     end
   end
 
@@ -20,11 +20,11 @@ class LikesController < ApplicationController
     if @post.dislikes == nil
       @post.dislikes = 1
       @post.save
-      redirect_to(root_path)
+      redirect_to :back
     else
       @post.dislikes += 1
       @post.save
-      redirect_to(root_path)
+      redirect_to :back
     end
   end
 
