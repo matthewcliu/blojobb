@@ -5,7 +5,6 @@ class TagsController < ApplicationController
     
     @posts = Tag.search_tags_and_return_posts(params[:tag])
     
-
     respond_to do |format|
       format.html # search.html.erb
       format.xml  { render :xml => @posts }

@@ -21,7 +21,7 @@ class Post < ActiveRecord::Base
   def self.search(search)
     if search
       #Search content column for ?, which maps to the params coming from the search form
-      where("content ILIKE ?", "%#{search}%")
+      where("content LIKE ?", "%#{search}%")
     else
       Post.all
     end

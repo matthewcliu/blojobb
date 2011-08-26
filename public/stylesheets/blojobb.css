@@ -19,24 +19,34 @@ body {
 	
 }
 
-.container {
-  width: 740px;
-  height: 900px;
+#top {
+  width: 760px;
+}
+
+#page {
+/*  width: 940px;
+  height: 900px;*/
+  width: 760px;
   margin-right: auto;
   margin-left: auto;
   background: #fff;
 }
 
 .round {
+  float: left;
+  clear: both;
   -moz-border-radius:    10px;
   -webkit-border-radius: 10px;
   border-radius:         10px;
+  margin-left: 10px;
 }
 
 /*Header and Nav */
 
-header {
-  padding-top: 20px;
+/*header {
+padding-top: 20px;
+  float: left;
+  clear: both;
 }
 
 header img {
@@ -45,19 +55,30 @@ header img {
   float: left;
 }
 
-div.logo {
+/*div.logo {
   float: left;
   height: 50px;
   width: 250px;
-}
+}*/
 
 div.search {
   float: left;
-  height: 50px;
-  width: 200x;
+  height: 40px;
 }
 
-nav {
+div.topbar {
+
+}
+
+/* Add underbar behind top bar - needed for Twitter CS */
+
+div.underbar {
+  height: 60px;
+  float: left;
+  clear: right;
+}
+
+/*nav {
   float: right;
   background-color: #fff;
   margin-top: 1em;
@@ -96,12 +117,12 @@ nav ul li a:visited {
 nav ul li a:hover {
   text-decoration: underline;
 }
-
+*/
 
 /*Section Main*/
 
 section {
-	padding: 0px 20px 0px 20px;
+/*	padding: 0px 20px 0px 20px;*/
 	font-size: 100%;
 	background: #fff;
 }
@@ -144,7 +165,7 @@ h1.post {
 
 div.sort_links {
   float: left;
-  clear: right;
+  clear: both;
   font-size: 1.2em;
   height: 30px;
 }
@@ -159,6 +180,7 @@ div.feed {
 
 div.feed_items {
   float: left;
+  clear: both;
   width: 740px;
   height: 105px;
   border-top: 1px solid #ccc;
@@ -170,6 +192,7 @@ div.post_main {
   width: 600px;
   height: 95px:;
   float:left;
+  clear: left;
 }
 
 div.post_ratings {

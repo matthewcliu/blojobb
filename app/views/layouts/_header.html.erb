@@ -1,19 +1,19 @@
-<header>
+<div class="topbar">
+  <div class="fill">
+	<div id="top" class="container">
+	  <h3>
+        <%= link_to "Blojobb", root_path %>
+      </h3>
+      <ul>
+        <li><%= link_to "Home", root_path %></li>
+	    <li><%= link_to "About", about_path %></li>
+	    <li><%= link_to "FAQ", faq_path %></li>
+        <li><%= link_to "Contact", contact_path %></li>
+      </ul>
   
-  <div class="logo">
-  <%= link_to logo, root_path %>
+      <div class="search">
+        <%= render 'posts/search' %>
+      </div>
+    </div>
   </div>
-
-  <div class="search">
-  <%= render 'posts/search' %>
-  </div>
-
-  <nav class="round">
-    <ul>
-      <li><%= link_to "Home", root_path %></li>
-	  <li><%= link_to "About", about_path %></li>
-	  <li><%= link_to "FAQ", faq_path %></li>
-      <li><%= link_to "Contact", contact_path %></li>
-    </ul>
-  </nav>
-</header>
+</div>
