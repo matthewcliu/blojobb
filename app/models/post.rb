@@ -2,6 +2,8 @@ class Post < ActiveRecord::Base
 
   #attr_accessible :content, :tag_names
   validates :content, :presence => true, :length => { :maximum => 250 }
+  validates :tag_names, :presence => true
+
   
   has_many :relationships, :dependent => :destroy
   has_many :tags, :through => :relationships

@@ -87,6 +87,8 @@ div.underbar {
 #searchbutton {
   width: 80px;
   height: 28px;
+  background-position: 0 -28px;
+
 }
 
 .flash.success {

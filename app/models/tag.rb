@@ -1,5 +1,7 @@
 class Tag < ActiveRecord::Base
 
+  #validates :tag_names, :presence => true
+
   has_many :relationships, :dependent => :destroy
   has_many :posts, :through => :relationships
 

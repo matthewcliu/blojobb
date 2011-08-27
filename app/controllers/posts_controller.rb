@@ -40,6 +40,7 @@ class PostsController < ApplicationController
   # POST /posts
   # POST /posts.xml
   def create
+    
     @post = Post.new(params[:post])
 
     if @post.save
@@ -47,7 +48,9 @@ class PostsController < ApplicationController
       #Redirects to home page
       redirect_to root_path
     else
-      render('pages/home')
+      flash[:errors] = "Invalid post."
+      redirect_to root_path
+      #render('pages/home')
     end
     #respond_to do |format|
     #  if @post.save
