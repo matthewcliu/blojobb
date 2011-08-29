@@ -5,6 +5,8 @@ gem 'sqlite3'
 gem 'will_paginate', '3.0.pre2'
 gem 'rake', '0.8.7'
 gem "acts_as_taggable_on_steroids", "~> 1.2"
+gem "paperclip", "~> 2.3"
+
 
 group :development do
   gem 'rspec-rails', '2.6.1'

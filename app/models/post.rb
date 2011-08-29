@@ -1,8 +1,10 @@
 class Post < ActiveRecord::Base
 
+  has_attached_file :picture, :styles => { :medium => "456x342>", :thumb => "76x57>" }
+
   #attr_accessible :content, :tag_names
   validates :content, :presence => true, :length => { :maximum => 250 }
-  validates :tag_names, :presence => true
+  #validates :tag_names, :presence => true
 
   
   has_many :relationships, :dependent => :destroy

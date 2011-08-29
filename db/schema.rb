@@ -10,14 +10,18 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110811072805) do
+ActiveRecord::Schema.define(:version => 20110829051247) do
 
   create_table "posts", :force => true do |t|
     t.string   "content"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "likes",      :default => 0
-    t.integer  "dislikes",   :default => 0
+    t.integer  "likes",                :default => 0
+    t.integer  "dislikes",             :default => 0
+    t.string   "picture_file_name"
+    t.string   "picture_content_type"
+    t.integer  "picture_file_size"
+    t.datetime "picture_updated_at"
   end
 
   create_table "relationships", :force => true do |t|

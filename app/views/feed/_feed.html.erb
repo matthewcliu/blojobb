@@ -1,5 +1,14 @@
 <% @posts.each do |post| %>
   <div class="feed_items">
+	<div class="post_picture">
+		<%= puts post.picture_file_name %>
+		<%= if post.picture_file_name == nil
+				image_tag("blojobb_default_image.jpeg", :alt => "Angry Face")
+			else
+		  		image_tag post.picture.url(:thumb)
+			end
+		%>
+	</div>
 	<div class="post_main">
       <span class="content"><%= link_to post.content, post_path(post) %></span>
 	  <span class="tags">

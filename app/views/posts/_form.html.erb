@@ -1,4 +1,4 @@
-<%= form_for(@post) do |f| %>
+<%= form_for @post, :html => { :multipart => true } do |f| %>
   <% if @post.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@post.errors.count, "error") %> 
@@ -21,7 +21,16 @@
 	<%= f.text_area :tag_names %>
   </div>
 
+  <div class="picture_upload">
+	<div id= "picture_upload_label">
+  	  <%= f.label :picture, 'Upload Picture (optional)', :class => 'picture_label' %><br />
+	</div>
+	<div id="picture_upload">
+	  <%= f.file_field :picture, :id => 'uploadbutton'%>
+	</div>
+  </div>
+
   <div class="actions" id="post_submit">
-    <%= f.submit 'Argh!!!', :class => 'btn primary', :id => 'arghbutton' %>
+    <%= f.submit 'Post', :class => 'btn primary', :id => 'postbutton' %>
   </div>
 <% end %>
