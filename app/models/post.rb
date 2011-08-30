@@ -1,6 +1,10 @@
 class Post < ActiveRecord::Base
 
-  has_attached_file :picture, :styles => { :medium => "456x342>", :thumb => "76x57>" }
+  has_attached_file :picture, :styles => { :medium => "456x342>", :thumb => "76x57>" },
+                    :storage => :s3,
+                    :s3_credentials => "#{RAILS_ROOT}/config/s3.yml",
+                    :path => ":attachment/:id/:style.:extension",
+                    :bucket => 'blojobb_images'
 
   #attr_accessible :content, :tag_names
   validates :content, :presence => true, :length => { :maximum => 250 }
