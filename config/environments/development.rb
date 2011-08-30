@@ -24,7 +24,7 @@ Blojobb::Application.configure do
   config.action_dispatch.best_standards_support = :builtin
   
   #Paperclip config
-  Paperclip.options[:command_path] = "/usr/local/bin/"
+  #Paperclip.options[:command_path] = "/usr/local/bin/"
   
 end
 
