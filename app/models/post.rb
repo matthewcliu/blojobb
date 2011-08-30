@@ -15,7 +15,8 @@ class Post < ActiveRecord::Base
   has_many :tags, :through => :relationships
 
   #Store :tag_names for life of the object - never dump in a database
-  attr_accessor :tag_names, :picture_file_name
+  attr_accessor :tag_names
+  #:picture_file_name
 
   #After save from form submission, call assign tags that creates tags related to the post
   after_save :assign_tags
