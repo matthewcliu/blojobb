@@ -1,7 +1,0 @@
-<% unless @posts.empty? %>
-
-  <table class="feed" summary="Paginated posts">
-    <%= render :partial => 'feed/feed_item', :collection => @posts %>
-  </table>
-  <%= will_paginate @posts %>
-<% end %>
