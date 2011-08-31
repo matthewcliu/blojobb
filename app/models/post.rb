@@ -4,7 +4,7 @@ class Post < ActiveRecord::Base
                     :storage => :s3,
                     :s3_credentials => "#{RAILS_ROOT}/config/s3.yml",
                     :path => ":attachment/:id/:style.:extension",
-                    :bucket => 'blojobb_images'
+                    :bucket => 'blojobb_production'
 
   #attr_accessible :content, :tag_names
   validates :content, :presence => true, :length => { :maximum => 250 }
