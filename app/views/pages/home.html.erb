@@ -5,11 +5,11 @@
   <%= render 'posts/form' %>
 </div>
 
-<div class="sort_links">
+<div class="sort_links" id="sort_posts">
   <%= render 'posts/sort_posts' %>
 </div>
 
-<div class="feed">
+<div class="feed" id="post_feed">
   <%= render 'feed/feed' %>
   <%= will_paginate @posts %>
 </div>

@@ -21,9 +21,9 @@ class Post < ActiveRecord::Base
   #After save from form submission, call assign tags that creates tags related to the post
   after_save :assign_tags
   
-  default_scope :order => 'posts.created_at DESC'
+  #default_scope :order => 'posts.created_at DESC'
   
-  def tag_names
+  def tag_names    
     @tag_names || tags.map(&:name).join(' ')
   end
   
@@ -32,7 +32,8 @@ class Post < ActiveRecord::Base
       #Search content column for ?, which maps to the params coming from the search form
       where("content LIKE ?", "%#{search}%")
     else
-      Post.all
+      #Post.all
+      scoped
     end
   end
   

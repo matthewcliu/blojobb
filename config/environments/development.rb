@@ -25,6 +25,6 @@ Blojobb::Application.configure do
   
   #Paperclip config
   #Paperclip.options[:command_path] = "/usr/local/bin/"
-  
+    
 end
 

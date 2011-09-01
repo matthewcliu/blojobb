@@ -7,6 +7,7 @@ gem 'rake', '0.8.7'
 gem "acts_as_taggable_on_steroids", "~> 1.2"
 gem "paperclip", "~> 2.3"
 gem "aws-s3"
+gem 'jquery-rails'
 
 
 group :development do

@@ -2,28 +2,17 @@ class ApplicationController < ActionController::Base
   protect_from_forgery
   
   def sorted_posts(sort_type)
-    if sort_type == "likes"
-      by_likes
-    elsif sort_type == "dislikes"
-      by_dislikes
+    
+    puts '@@@@@@@@@@@@@@@@@@@@@@@@'
+    puts sort_type
+    
+    if sort_type == 'likes'
+      Post.order("likes DESC")
+    elsif sort_type == 'dislikes'
+      Post.order("dislikes DESC")
     else
-      by_recency
+      Post.order("created_at DESC")
     end
-  end
-  
-  def by_likes
-    all_posts = Post.all
-    by_likes_posts = all_posts.sort_by(&:likes).reverse
-  end
-  
-  def by_dislikes
-    all_posts = Post.all
-    by_dislikes_posts = all_posts.sort_by(&:dislikes).reverse
-  end
-  
-  def by_recency
-    all_posts = Post.all
-    by_recency_posts = all_posts.sort_by(&:created_at).reverse  
   end
   
 end
