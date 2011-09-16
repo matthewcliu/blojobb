@@ -19,7 +19,7 @@
 	  </span>
       <span class="timestamp">Posted <%= time_ago_in_words(post.created_at) %> ago.</span>
 	</div>
-	<div class="post_ratings">
+	<div class="post_ratings" id= "likes_dislikes">
   	  <span class="likes"><%= post.likes %>
         <%= link_to 'likes', like_path(post) %></span>
       <span class="dislikes"><%= post.dislikes %>

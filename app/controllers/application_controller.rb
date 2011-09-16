@@ -3,9 +3,6 @@ class ApplicationController < ActionController::Base
   
   def sorted_posts(sort_type)
     
-    puts '@@@@@@@@@@@@@@@@@@@@@@@@'
-    puts sort_type
-    
     if sort_type == 'likes'
       Post.order("likes DESC")
     elsif sort_type == 'dislikes'

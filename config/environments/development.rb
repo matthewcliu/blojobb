@@ -25,6 +25,8 @@ Blojobb::Application.configure do
   
   #Paperclip config
   #Paperclip.options[:command_path] = "/usr/local/bin/"
+  
+  config.serve_static_assets = true
     
 end
 

@@ -10,10 +10,24 @@
 </head>
 <body>
 	<div id="page" class="container">
-	  <%= render 'layouts/header'%>
 	  <%= javascript_include_tag :defaults %>
 	  <div class="underbar">
 	  </div>
+	  <div class = "like">
+	     <iframe src="http://www.facebook.com/plugins/like.php?href=www.blojobb.com"
+		        scrolling="no" frameborder="0"
+		        style="border:none; width:450px; height:80px">
+		 </iframe>
+	  </div>
+	  <div id="fb-root"></div>
+        <script src="http://connect.facebook.net/en_US/all.js"></script>
+        <script>
+          FB.init({ 
+            appId:'115391628567333', cookie:true, 
+            status:true, xfbml:true 
+          });
+        </script>
+	    <fb:login-button>Login with Facebook</fb:login-button>
       <section class="round">
 		<div class="notice">
   		  <% flash.each do |key, value| %>

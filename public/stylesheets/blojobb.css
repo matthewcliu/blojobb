@@ -74,7 +74,17 @@ div.underbar {
   font-size: 14px;	
 }
 
+/*FB Like */
 
+.like {
+  float: left;
+  clear: both;
+}
+
+.likw {
+  float: left;
+  clear: both;
+}
 
 /*Section Main*/
 
